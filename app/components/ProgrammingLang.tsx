@@ -8,7 +8,7 @@ export default function ProgrammingLang() {
       <div className="pointer-events-none absolute top-0 bottom-0 right-0 z-10 w-16 md:w-32 bg-gradient-to-l from-white to-transparent"></div>
         <div
           className="skills-marquee-track flex w-max gap-2 md:gap-3"
-          style={{ "--skills-marquee-duration": "50s" }}
+         style={{ "--skills-marquee-duration": "50s" } as React.CSSProperties}
         >
           <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
             <span className="text-lg md:text-xl">

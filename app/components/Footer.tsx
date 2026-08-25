@@ -11,7 +11,7 @@ export default function Footer() {
           © 2026 All rights reserved.
         </p>
         <div className="flex items-center gap-4 md:gap-5 lg:gap-6">
-          <div tabIndex="0">
+          <div tabIndex={0}>
             <a
               target="_blank"
               className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
@@ -32,7 +32,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <div tabIndex="0">
+          <div tabIndex={0}>
             <a
               target="_blank"
               className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
@@ -51,7 +51,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <div tabIndex="0">
+          <div tabIndex={0}>
             <a
               target="_blank"
               className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
@@ -72,7 +72,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <div tabIndex="0">
+          <div tabIndex={0}>
             <a
               target="_blank"
               className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
@@ -91,7 +91,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <div tabIndex="0">
+          <div tabIndex={0}>
             <a
               target="_blank"
               className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
