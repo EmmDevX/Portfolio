@@ -118,10 +118,9 @@ export default function Navbar() {
           </a>
           <a
             target="_blank"
-            download=""
             aria-label="Resume"
             className="relative flex items-center justify-center w-[44px] h-[44px] md:w-[52px] md:h-[52px] rounded-xl md:rounded-2xl mx-[1px] text-zinc-600 hover:text-zinc-900 transition-colors duration-150 overflow-visible"
-            href="/resume.pdf"
+            href="/Resume.pdf"
           >
             <span
               className="relative z-10 flex items-center justify-center"

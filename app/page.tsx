@@ -38,9 +38,9 @@ export default function Home() {
                 className="mt-8 flex flex-wrap items-center gap-3"
                 style={{ opacity: 1, transform: 'none' }}
               >
-                <a
+                <a target="_blank"
                   className="inline-flex min-h-11 items-center gap-2 rounded-[12px] bg-foreground px-5 text-[15px] font-semibold leading-none text-background transition-opacity duration-300 hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-black hover:text-white"
-                  href="/resume"
+                  href="/Resume.pdf"
                 >
                   <svg
                     stroke="currentColor"
