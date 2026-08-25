@@ -78,7 +78,7 @@ If you're interested in **technology, engineering, design, or collaboration**, f
 
 ### 📫 Find Me
 
-* 🌐 **Portfolio:** Your Portfolio Link
+* 🌐 **Portfolio:** https://etaiwo.vercel.app/
 * 💼 **LinkedIn:** https://www.linkedin.com/in/emmanuel-taiwo-38097937b
 * 🐙 **GitHub:** https://www.github.com/EmmDevX
 * 📘 **Facebook:** https://www.facebook.com/profile.php?id=100095514936601&mibextid=ZbWKwL
