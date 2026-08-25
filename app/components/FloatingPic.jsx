@@ -2,7 +2,7 @@
 
 export default function FloatingPhotos() {
   return (
-    <section className="relative flex min-h-[550px] w-full items-center justify-center overflow-hidden bg-[#f4f4f4] px-4">
+    <section className="relative flex min-h-[550px] w-full items-center justify-center overflow-hidden  px-4 ">
       
       {/* Soft shadow underneath the photos */}
       <div
@@ -15,7 +15,7 @@ export default function FloatingPhotos() {
           -translate-x-1/2
           -translate-y-1/2
           rounded-full
-          bg-black/10
+         
           blur-[70px]
         "
       />
@@ -38,7 +38,7 @@ export default function FloatingPhotos() {
         "
       >
 
-        {/* ================= LEFT PHOTO ================= */}
+        {/*  LEFT PHOTO */}
         <div
           className="
             floating-left

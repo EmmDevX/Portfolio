@@ -6,10 +6,12 @@ export default function ProgrammingLang() {
       <div className="relative w-full overflow-x-hidden py-12">
       <div className="pointer-events-none absolute top-0 bottom-0 left-0 z-10 w-16 md:w-32 bg-gradient-to-r from-light to-transparent"></div>
       <div className="pointer-events-none absolute top-0 bottom-0 right-0 z-10 w-16 md:w-32 bg-gradient-to-l from-white to-transparent"></div>
+        {/* Programming Languages / Tools I use */}
         <div
           className="skills-marquee-track flex w-max gap-2 md:gap-3"
          style={{ "--skills-marquee-duration": "50s" } as React.CSSProperties}
         >
+          {/* CSS */}
           <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
             <span className="text-lg md:text-xl">
               <svg
@@ -29,7 +31,8 @@ export default function ProgrammingLang() {
             <span>CSS</span>
           </div>
 
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+         {/* React */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -46,7 +49,8 @@ export default function ProgrammingLang() {
             <span>React</span>
           </div>
 
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+         {/* JavaScript */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -63,7 +67,8 @@ export default function ProgrammingLang() {
             </span>
             <span>Javascript</span>
           </div>
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+          {/* Typescript */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -80,7 +85,8 @@ export default function ProgrammingLang() {
             </span>
             <span>Typescript</span>
           </div>
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+          {/* Next.js */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -96,7 +102,8 @@ export default function ProgrammingLang() {
             </span>
             <span>Next.js</span>
           </div>
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+          {/* TailwindCss */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -113,8 +120,8 @@ export default function ProgrammingLang() {
             </span>
             <span>TailwindCSS</span>
           </div>
-
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+          {/* Figma */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -137,8 +144,8 @@ export default function ProgrammingLang() {
             </span>
             <span>Figma</span>
           </div>
-
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+           {/* Github */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -154,8 +161,8 @@ export default function ProgrammingLang() {
             </span>
             <span>GitHub</span>
           </div>
-
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+       {/* Javascript */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -172,6 +179,7 @@ export default function ProgrammingLang() {
             </span>
             <span>Javascript</span>
           </div>
+          {/* Typescript */}
           <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
             <span className="text-lg md:text-xl">
               <svg
@@ -189,8 +197,8 @@ export default function ProgrammingLang() {
             </span>
             <span>Typescript</span>
           </div>
-
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+           {/* CSS */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -208,7 +216,8 @@ export default function ProgrammingLang() {
             </span>
             <span>CSS</span>
           </div>
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+          {/* Next.js */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -224,7 +233,8 @@ export default function ProgrammingLang() {
             </span>
             <span>Next.js</span>
           </div>
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+          {/* TailwindCSS*/}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"
@@ -241,7 +251,7 @@ export default function ProgrammingLang() {
             </span>
             <span>TailwindCSS</span>
           </div>
-
+           {/* Figma */}
           <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
             <span className="text-lg md:text-xl">
               <svg
@@ -265,8 +275,8 @@ export default function ProgrammingLang() {
             </span>
             <span>Figma</span>
           </div>
-
-          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm">
+         {/* Github */}
+          <div className="flex shrink-0 cursor-pointer items-center gap-2 rounded-xl border border-border bg-surface/55 px-3 py-2 text-xs font-medium text-black/40 md:px-4 md:py-3 md:text-sm ">
             <span className="text-lg md:text-xl">
               <svg
                 stroke="currentColor"

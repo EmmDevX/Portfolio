@@ -2,11 +2,13 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Language from "./components/ProgrammingLang";
 import About from "./components/About";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import MovingProject from "./components/Project";
+import CTA from "./components/cta";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-neutral-100 font-sans">
+    <div className="min-h-screen bg-white font-sans ">
       <Navbar />
 
       <main>
@@ -24,21 +26,24 @@ export default function Home() {
               </div>
 
               {/* Introduction */}
-              <p className="text-base font-bold uppercase tracking-widest text-neutral-400">
+              <p className="text-base font-bold uppercase tracking-widest text-neutral-400 ">
                 Hi, I&apos;m <span className="text-[#0a0a0a]">Emmanuel</span>
               </p>
 
               {/* Hero Heading */}
-              <h1 className="text-[clamp(1.5rem,5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[#0a0a0a]">
+              <h1 className="text-[clamp(1.5rem,5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[#0a0a0a] ">
                 I build responsive and smart
                 <br />
-                <span className="text-neutral-500">websites for clients.</span>
+                <span className="text-neutral-500 dark:text-neutral-400">
+                  websites for clients.
+                </span>
               </h1>
               <div
                 className="mt-8 flex flex-wrap items-center gap-3"
-                style={{ opacity: 1, transform: 'none' }}
+                style={{ opacity: 1, transform: "none" }}
               >
-                <a target="_blank"
+                <a
+                  target="_blank"
                   className="inline-flex min-h-11 items-center gap-2 rounded-[12px] bg-foreground px-5 text-[15px] font-semibold leading-none text-background transition-opacity duration-300 hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-black hover:text-white"
                   href="/Resume.pdf"
                 >
@@ -62,10 +67,16 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* Moving Projects*/}
+        <MovingProject />
         {/* About Section */}
         <About />
+        {/* Services Section */}
         {/* Footer */}
-        <Footer/>
+        
+        {/* CTA Section */}
+        <CTA />
+        <Footer />
       </main>
     </div>
   );

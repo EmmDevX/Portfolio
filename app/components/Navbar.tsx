@@ -1,12 +1,26 @@
 "use client";
 import Link from "next/link";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 export default function Navbar() {
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
   return (
     <div className="fixed top-[28px] inset-x-0 z-50 flex justify-center pointer-events-none">
       <div className="pointer-events-auto relative isolate rounded-[18px] md:rounded-3xl p-1.5 md:p-2 ">
         <div
           className="absolute inset-0 -z-10 rounded-[18px] md:rounded-3xl backdrop-blur-[18px] bg-white/[0.01]"
-          style={{ filter: "url(#liquid-glass)", backgroundImage: "linear-gradient(135deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0.0) 100%)" }}
+          style={{
+            filter: "url(#liquid-glass)",
+            backgroundImage:
+              "linear-gradient(135deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.06) 50%, rgba(255, 255, 255, 0.0) 100%)",
+          }}
           aria-hidden="true"
         ></div>
         <div
@@ -161,6 +175,70 @@ export default function Navbar() {
               </svg>
             </span>
           </a>
+          <button
+            type="button"
+            aria-label="Toggle theme"
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="
+    relative
+    flex
+    items-center
+    justify-center
+    w-[44px]
+    h-[44px]
+    md:w-[52px]
+    md:h-[52px]
+    rounded-xl
+    md:rounded-2xl
+    mx-[1px]
+    text-zinc-600
+    dark:text-zinc-300
+    hover:text-zinc-900
+    dark:hover:text-white
+    transition-colors
+    duration-150
+  "
+          >
+            {theme === "dark" ? (
+              // Sun
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="m4.93 4.93 1.41 1.41" />
+                <path d="m17.66 17.66 1.41 1.41" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+                <path d="m6.34 17.66-1.41 1.41" />
+                <path d="m19.07 4.93-1.41 1.41" />
+              </svg>
+            ) : (
+              // Moon
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+            )}
+          </button>
           <div className="w-[1px] h-[20px] md:h-[24px] bg-black/10 mx-1 md:mx-2 shrink-0 rounded-sm"></div>
           <div tabIndex={0} style={{ transform: "none" }}>
             <a
