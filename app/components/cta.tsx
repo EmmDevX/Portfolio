@@ -6,7 +6,7 @@ export default function cta() {
       className="relative max-w-5xl mx-auto rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat bg-black dark:bg-white/5"
       style={{ backgroundImage: "url('/images/cta.jpg')" }}
     >
-      <div className="bg-[rgba(1,1,1,0.9)]  relative z-10 px-6 sm:px-8 md:px-12 lg:px-16 py-12 md:py-16 lg:py-20 text-center">
+      <div className="bg-[rgba(1,1,1,0.9)]  relative z-10 px-6 sm:px-6 md:px-10 lg:px-14 py-12 md:py-20 lg:py-24 text-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">
           Have an Idea? Let’s Bring It to Life.
         </h2>

@@ -1,20 +1,21 @@
 "use client";
 
 export default function Footer() {
+ 
   return (
     <footer
-      className="py-8 md:py-10 lg:py-12 border-t border-border"
+      className=" mt-10 md:mt-13 lg:mt-14 py-4 md:py-6 lg:py-8 border-t border-neutral-300 border-border"
       style={{ opacity: 1, transform: "none" }}
     >
       <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-between gap-4 px-6 sm:flex-row sm:gap-0 md:px-10">
-        <p className="text-[13px] md:text-[14px] text-black/40 font-normal leading-[20px] md:leading-[21px] opacity-[0.7]">
-          © 2026 All rights reserved.
+        <p className="text-[13px] md:text-[14px] text-black/80 font-normal leading-[20px] md:leading-[21px] opacity-[0.7] hover:text-blue-500">
+          © {new Date().getFullYear()} | Emmanuel Taiwo
         </p>
         <div className="flex items-center gap-4 md:gap-5 lg:gap-6">
           <div tabIndex={0}>
             <a
               target="_blank"
-              className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
+              className="text-black/80 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md hover:text-blue-500"
               aria-label="Twitter/X"
               href="https://x.com/emmanuel_t98185"
             >
@@ -23,7 +24,7 @@ export default function Footer() {
                 fill="currentColor"
                 stroke-width="0"
                 viewBox="0 0 512 512"
-                className="md:w-[19px] md:h-[19px] lg:w-[20px] lg:h-[20px]"
+                className="md:w-[19px] md:h-[19px] lg:w-[20px] lg:h-[20px] "
                 height="18"
                 width="18"
                 xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +36,7 @@ export default function Footer() {
           <div tabIndex={0}>
             <a
               target="_blank"
-              className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
+              className="text-black/80 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md hover:text-blue-500"
               aria-label="Whatsapp"
               href="https://wa.me/+2347025183733"
             >
@@ -54,7 +55,7 @@ export default function Footer() {
           <div tabIndex={0}>
             <a
               target="_blank"
-              className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
+              className="text-black/80 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md hover:text-blue-500"
               aria-label="GitHub"
               href="https://github.com/EmmDevX"
             >
@@ -75,7 +76,7 @@ export default function Footer() {
           <div tabIndex={0}>
             <a
               target="_blank"
-              className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
+              className="text-black/80 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md hover:text-blue-500"
               aria-label="Linkedin"
               href="https://www.linkedin.com/in/emmanuel-taiwo-38097937b"
             >
@@ -94,7 +95,7 @@ export default function Footer() {
           <div tabIndex={0}>
             <a
               target="_blank"
-              className="text-black/40 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md"
+              className="text-black/80 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md hover:text-blue-500"
               aria-label="Instagram"
               href="https://www.facebook.com/profile.php?id=100095514936601&mibextid=ZbWKwL"
             >
