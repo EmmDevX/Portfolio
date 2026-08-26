@@ -44,7 +44,7 @@ export default function AboutPage() {
             className="text-center duration-300 group cursor-pointer"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="flex justify-center mb-4 text-slate-900  group-hover:scale-110 transition-transform duration-300">
+            <div className="flex   justify-center mb-4 text-slate-900  group-hover:scale-125 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -62,7 +62,7 @@ export default function AboutPage() {
               </svg>
             </div>
             <div className="text-4xl md:text-5xl font-bold text-gray-900  mb-2">
-              <span className="tabular-nums">5+</span>
+              <span>5+</span>
             </div>
             <p className="text-sm md:text-base text-gray-600 font-medium">
               Projects Completed
@@ -72,7 +72,7 @@ export default function AboutPage() {
             className="text-center duration-300 group cursor-pointer"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="flex justify-center mb-4 text-slate-900 group-hover:scale-110 transition-transform duration-300">
+            <div className="flex justify-center mb-4 text-slate-900 group-hover:scale-125 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -91,7 +91,7 @@ export default function AboutPage() {
               </svg>
             </div>
             <div className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
-              <span className="tabular-nums">30+</span>
+              <span>30+</span>
             </div>
             <p className="text-sm md:text-base text-gray-600 font-medium">
               Contributions on Github
@@ -101,7 +101,7 @@ export default function AboutPage() {
             className="text-center duration-300 group cursor-pointer"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="flex justify-center mb-4 text-slate-900  group-hover:scale-110 transition-transform duration-300">
+            <div className="flex justify-center mb-4 text-slate-900  group-hover:scale-125 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -118,7 +118,7 @@ export default function AboutPage() {
               </svg>
             </div>
             <div className="text-4xl md:text-5xl font-bold text-gray-900  mb-2">
-              <span className="tabular-nums">1+</span>
+              <span>1+</span>
             </div>
             <p className="text-sm md:text-base text-gray-600  font-medium">
               Years Experience
@@ -128,7 +128,7 @@ export default function AboutPage() {
             className="text-center duration-300 group cursor-pointer"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="flex justify-center mb-4 text-slate-900 group-hover:scale-110 transition-transform duration-300">
+            <div className="flex justify-center mb-4 text-slate-900 group-hover:scale-125 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -144,7 +144,7 @@ export default function AboutPage() {
               </svg>
             </div>
             <div className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
-              <span className="tabular-nums">3.8</span>
+              <span>3.8</span>
             </div>
             <p className="text-sm md:text-base text-gray-600 font-medium">
               Review

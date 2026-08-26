@@ -5,9 +5,13 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import MovingProject from "./components/Project";
 import CTA from "./components/cta";
+import ScrollEffects from "./components/ScrollEffects";
+import Contact from "./components/Contact"
 
 export default function Home() {
   return (
+    <>
+    <ScrollEffects/>
     <div className="min-h-screen bg-white font-sans ">
       <Navbar />
 
@@ -76,8 +80,11 @@ export default function Home() {
         
         {/* CTA Section */}
         <CTA />
+        {/* Contact Section */}
+        <Contact/>
         <Footer />
       </main>
     </div>
+    </>
   );
 }
