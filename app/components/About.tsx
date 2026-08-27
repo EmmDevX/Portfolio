@@ -16,7 +16,7 @@ export default function AboutPage() {
           </h2>
 
           <p className="mt-4 text-base text-neutral-600 ">
-            I&apos; a passionate web developer with a strong focus on creating
+            I&apos;m a passionate web developer with a strong focus on creating
             responsive and user-friendly websites. With a keen eye for design
             and a solid understanding of front-end technologies, I strive to
             deliver high-quality web solutions that meet the needs of clients
