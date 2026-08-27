@@ -7,6 +7,7 @@ import MovingProject from "./components/Project";
 import CTA from "./components/cta";
 import ScrollEffects from "./components/ScrollEffects";
 import Contact from "./components/Contact"
+import ProjectsSection from "./components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -75,8 +76,9 @@ export default function Home() {
         <MovingProject />
         {/* About Section */}
         <About />
-        {/* Services Section */}
-        {/* Footer */}
+        {/* Projects Section */}
+        
+        <ProjectsSection/>
         
         {/* CTA Section */}
         <CTA />
