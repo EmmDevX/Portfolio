@@ -17,6 +17,27 @@ export const metadata: Metadata = {
     "Emmanuel Taiwo | Frontend Engineer | UI/UX Designer | Tech Enthusiast |",
   description:
     "Emmanuel Taiwo is a Frontend Engineer, UI/UX Designer, and Tech Enthusiast. Explore his portfolio to see his work and connect with him.",
+    openGraph: {
+      title :"Emmanuel Taiwo | Front-end Developer",
+      description: "My personal portfolio website",
+      url:"https://etaiwo.vercel.app/",
+      siteName:"Emmanuel Taiwo",
+      images:[
+        {
+          url:"/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Emmanuel Taiwo Portfolio",
+        },
+      ],
+      type:"website",
+    },
+    twitter:{
+      card: "summary_large_image",
+      title: "Emmanuel Taiwo | Front-end Developer",
+      description: "My personal portfolio website",
+      images: ["/og-image.jpg"],
+    },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
