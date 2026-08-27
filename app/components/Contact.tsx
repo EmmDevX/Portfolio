@@ -20,8 +20,8 @@ export default function Contact() {
               const formData = new FormData(form);
 
               formData.append("access_key", "cae29f66-1ea0-4ef6-bd48-c933a962c878");
-              formData.append("subject", "New Message from My Portfolio");
-              formData.append("from_name", "Portfolio Contact Form");
+              formData.append("subject", "Contact-Form");
+              formData.append("from_name", "Project Inquiry");
 
               try {
                 const response = await fetch("https://api.web3forms.com/submit", {
@@ -51,22 +51,22 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16 items-center justify-between mb-4 md:mb-8 lg:mb-12">
              <div className="flex flex-col gap-2 px-6 mt-8 md:gap-4 md:px-7">
                  <label className="text-2xl font-medium text-neutral-500 ">First-Name</label>
-                 <input type="text" placeholder="Emmanuel" name="f-name" required className="w-full rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
+                 <input type="text" placeholder="Emmanuel" name="First-name" required className="w-full rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
               </div>
                <div className="flex flex-col gap-2 px-6 mt-8 md:gap-4 md:px-7">
                  <label className="text-2xl font-medium text-neutral-500" >Last-Name</label>
-                 <input type="text" placeholder="Taiwo" name="l-name" required className="w-full rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
+                 <input type="text" placeholder="Taiwo" name="Last-name" required className="w-full rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
               </div>
             </div>
             {/* Email */}
             <div className="flex flex-col gap-2 px-6 mt-2 md:gap-4 md:px-7 mb-4 md:mb-8 lg:mb-12">
                 <label className="text-2xl font-medium text-neutral-500" >Email:</label>
-                <input type="email" placeholder="emmanueltaiwo@example.com" required  name="email"  className="w-full rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
+                <input type="email" placeholder="emmanueltaiwo@example.com" required  name="Email"  className="w-full rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
             </div>
             {/* Subject */}
                  <div className="flex flex-col gap-2 px-6 mt-2 md:gap-4 md:px-7 mb-4 md:mb-8 lg:mb-12">
                 <label className="text-2xl font-medium text-neutral-500" >Subject:</label>
-                <textarea placeholder="Tell me a little about your project" required name="message" rows={6} className="w-full resize-none rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
+                <textarea placeholder="Tell me a little about your project" required name="Message" rows={6} className="w-full resize-none rounded-xl border border-neutral-200 bg-white px-5 py-4 text-base text-neutral-900 outline-none transition-all duration-300 placeholder:text-neutral-400 focus:border-neutral-900 focus:ring-4 focus:ring-neutral-900/5 md:px-6 md:py-5"/>
             </div>
             {/* Submit Form */}
             <div className="flex items-center justify-center p-8 mt-4 md:p-10 lg:mt-8">
