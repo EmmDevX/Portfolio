@@ -9,6 +9,7 @@ interface Project {
   coverImage: string;
   category?: string;
   technologies: string[];
+  live:string;
 }
 
 interface ProjectCardProps {

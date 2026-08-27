@@ -170,12 +170,12 @@ export default function Navbar() {
         
           <div className="w-[1px] h-[20px] md:h-[24px] bg-black/10 mx-1 md:mx-2 shrink-0 rounded-sm"></div>
           <div tabIndex={0} style={{ transform: "none" }}>
-            <a
+            <Link
               className="inline-flex items-center justify-center bg-black text-white font-medium tracking-tight whitespace-nowrap text-sm md:text-sm h-[40px] md:h-[46px] px-[16px] md:px-[22px] rounded-[16px] md:rounded-[18px] mx-[2px] md:mx-[4px] shadow-none"
-              href="/projects"
+              href="/#projects"
             >
               Projects
-            </a>
+            </Link>
           </div>
         </nav>
       </div>
