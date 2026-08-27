@@ -38,40 +38,53 @@ export const projects = [
     description:
       " A website designed for a prominent company that offers catering and events service",
     coverImage: "/images/halaga.png",
-    technologies: [
-      "Next.js",
-      "Tailwind CSS"
-    ],
+    technologies: ["Next.js", "Tailwind CSS"],
     stack: {
       frontend: "Next.js, Tailwind CSS",
       animation: "Framer-Motion",
     },
-    challenges: [],
-    learned: [],
-    github: "",
-    live: "https://halaga-site.vercel.app/",
+    challenges: [
+      "One of the main challenges was translating a catering business's services and brand into a website that felt visually appealing while still being clear and easy to navigate.",
+      "Creating a responsive layout required careful attention to spacing, image sizing, typography, and section structure across different screen sizes.",
+      "Presenting multiple catering services in a way that was easy for visitors to understand without making the interface feel crowded required several design iterations.",
+      "Working with large food and event images also required finding the right balance between visual quality, page layout, and overall performance.",
+    ],
+    learned: [
+      "I learned how to approach web design from a user's perspective and think about what information they need first.",
+      "I improved my skills in responsive layouts, visual hierarchy, typography, and working with images.",
+      "I learned that a good business website is not just about making something visually attractive; it should clearly communicate the brand and guide users toward taking action.",
+      "Halaga taught me how to combine design and functionality to create a more complete real-world web experience.",
+    ],
+    github: "https://github.com/EmmDevX/Halaga-Website",
+    live: "#",
   },
 
   /*Velvet Cofee */
 
   {
     slug: "velvet",
-    title: "Velvet Cofee",
+    title: "Velvet Coffee",
     category: "front-end.Personal Project. Website",
     description:
       "A website designed for a coffee shop in order to improve their audience and bring productivity to them in the marketplace",
     coverImage: "/images/velvet.png",
-    technologies: [
-     "HTML",
-     "CSS",
-     "Javascript"
-    ],
+    technologies: ["HTML", "CSS", "Javascript"],
     stack: {
       frontend: "HTML, CSS, Javascript",
-     
     },
-    challenges: [],
-    learned: [],
+    challenges: [
+      "Understanding how HTML structure and CSS styling work together was one of my first challenges, especially when building different sections of the website from scratch.",
+      "Getting the layout to look consistent across different screen sizes required a lot of trial and error with CSS properties such as flexbox, spacing, positioning, and sizing.",
+      "I initially struggled with positioning elements exactly where I wanted them and understanding why certain CSS rules were affecting other parts of the page.",
+      "Making the design match my original idea taught me that small details such as spacing, typography, alignment, and proportions can have a big impact on the final result.",
+    ],
+    learned: [
+      "I learned the fundamentals of structuring web pages with semantic HTML and styling them with CSS.",
+      "I developed a better understanding of Flexbox, spacing, positioning, typography, and responsive layouts.",
+      "I learned how to break a design into smaller sections and build each part step by step instead of trying to create the entire page at once.",
+      "I became more comfortable debugging CSS by testing different properties and understanding how they affect the layout.",
+      "Most importantly, Velvet gave me a strong foundation in HTML and CSS and helped build my confidence to move on to more advanced frontend technologies.",
+    ],
     github: "https://github.com/EmmDevX/La-Caret-Coffee",
     live: "https://la-caretcoffee.vercel.app/",
   },
