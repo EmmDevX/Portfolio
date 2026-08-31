@@ -95,7 +95,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             aria-label="GitHub"
             className="relative flex items-center justify-center w-[44px] h-[44px] md:w-[52px] md:h-[52px] rounded-xl md:rounded-2xl mx-[1px] text-zinc-600 hover:text-zinc-900 transition-colors duration-150 overflow-visible"
-            href="https://github.com/EmmDevX"
+            href="https://github.com/emmycodesx"
           >
             <span
               className="relative z-10 flex items-center justify-center"

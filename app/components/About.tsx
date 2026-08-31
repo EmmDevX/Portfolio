@@ -44,7 +44,7 @@ export default function AboutPage() {
             className="text-center duration-300 group cursor-pointer"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="flex   justify-center mb-4 text-slate-900  group-hover:scale-125 transition-transform duration-300">
+            <div className="flex justify-center mb-4 text-slate-900  group-hover:scale-125 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"

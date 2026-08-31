@@ -57,7 +57,7 @@ export default function Footer() {
               target="_blank"
               className="text-black/80 opacity-[0.7] hover:opacity-100 transition-opacity duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md hover:text-blue-500"
               aria-label="GitHub"
-              href="https://github.com/EmmDevX"
+              href="https://github.com/emmycodesx"
             >
               <svg
                 stroke="currentColor"
